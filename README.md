@@ -31,8 +31,6 @@ the size of the leaf and depth, the model is forced to look for broad patterns l
 - Summary Results Model A
 - Summary Results Model B
 - README
-- Heart_logistic_model.pkl : Trained logistic regression model
-- Heart_random_forest_model.pkl : Trained random forest model
 
 ## Key Findings
 After the debugging was done, the Random Forest Model generated an acurracy of [0.8097560975609757] and the Logistics Regression gave and acuracy of [0.7804878048780488]. This
@@ -45,3 +43,4 @@ Abdulazeez Hanif
 
 ## Notes
 Trained model files (.pkl) were generated locally when the script is executed and are not stored in the repository.
+
