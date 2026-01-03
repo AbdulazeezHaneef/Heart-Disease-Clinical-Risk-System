@@ -1,0 +1,42 @@
+Logistic Regression Results
+[[73 27]
+ [18 87]]
+              precision    recall  f1-score   support
+
+           0       0.80      0.73      0.76       100
+           1       0.76      0.83      0.79       105
+
+    accuracy                           0.78       205
+   macro avg       0.78      0.78      0.78       205
+weighted avg       0.78      0.78      0.78       205
+
+Accuracy: 0.7804878048780488
+Random Forest Results
+[[74 26]
+ [13 92]]
+              precision    recall  f1-score   support
+
+           0       0.85      0.74      0.79       100
+           1       0.78      0.88      0.83       105
+
+    accuracy                           0.81       205
+   macro avg       0.82      0.81      0.81       205
+weighted avg       0.81      0.81      0.81       205
+
+Accuracy: 0.8097560975609757
+                                  Feature  Importance
+10    cat__chest_pain_type_Typical angina    0.184795
+4                            num__oldpeak    0.145519
+17       cat__exercise_induced_angina_Yes    0.102070
+3                     num__Max_heart_rate    0.097429
+0                                num__age    0.093381
+16        cat__exercise_induced_angina_No    0.083009
+18                 cat__slope_Downsloping    0.049168
+2                        num__cholestoral    0.044506
+1             num__resting_blood_pressure    0.041974
+9   cat__chest_pain_type_Non-anginal pain    0.034061
+19                        cat__slope_Flat    0.031243
+6                           cat__sex_Male    0.030240
+5                         cat__sex_Female    0.029402
+14                   cat__rest_ecg_Normal    0.008008
+8    cat__chest_pain_type_Atypical angina    0.007489
